@@ -1,0 +1,36 @@
+.header {
+    background-color: $black-color;
+    width: 1600px;
+    margin: 0 auto;
+
+    &__navigation {
+        display: none;
+    }
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 75px;
+        width: 1140px;
+    }
+    
+    &__logo {
+        margin: 0 41px 0 0;
+    }
+    
+    &__button {
+        background: transparent;
+        border: none;
+        margin: 0 33px 0 0;
+    }
+    
+    &__link {
+        margin: 0 33px 0 0;
+    }
+}
+
+
+
+
+
